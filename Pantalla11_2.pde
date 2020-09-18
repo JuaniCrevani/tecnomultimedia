@@ -1,8 +1,5 @@
 void Pantalla11_2() {  
-  fill(255);
-  textAlign(CENTER);
-  textFont(FuenteB);
-  textSize(30);
+  alineacion_color_fuente1();
   text("En la alacena no habia mucha variedad...",width/2,height/2-50);
   textFont(FuenteB);
   text("¿Deseas comer veneno para ratas, galletitas, budin,\no prefieres ir al almacen a buscar otra cosa?",width/2,height/2+100);

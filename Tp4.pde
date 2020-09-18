@@ -1,7 +1,8 @@
-PImage LogoPantalla2,FondoPantalla3,FondoPantalla4;
 PFont FuenteA,FuenteB;
 int PantallaActual, Opcion, SeQueda;
+int MaxImagenes = 18;
 boolean Guardo, Compro, PrimeraVezP4, Oportunidad;
+PImage [] Imagen = new PImage[MaxImagenes];
 void setup(){
   size(1024,768);
   PantallaActual=0;
@@ -12,4 +13,22 @@ void setup(){
   PrimeraVezP4=true;
   FuenteA=loadFont("FranklinGothic-DemiCond-48.vlw");
   FuenteB=loadFont("Garamond-48.vlw");
+  Imagen [0] = loadImage("0.jpg");
+  Imagen [1] = loadImage("1.jpg");
+  Imagen [2] = loadImage("2.jpg");
+  Imagen [3] = loadImage("3.jpg");
+  Imagen [4] = loadImage("4.jpg");
+  Imagen [5] = loadImage("5.jpg");
+  Imagen [6] = loadImage("6.jpg");
+  Imagen [7] = loadImage("7.jpg");
+  Imagen [8] = loadImage("8.jpg");
+  Imagen [9] = loadImage("9.jpg");
+  Imagen [10] = loadImage("10.jpg");
+  Imagen [11] = loadImage("11.jpg");
+  Imagen [12] = loadImage("12.jpg");
+  Imagen [13] = loadImage("13.jpg");
+  Imagen [14] = loadImage("14.jpg");
+  Imagen [15] = loadImage("15.jpg");
+  Imagen [16] = loadImage("16.jpg");
+  Imagen [17] = loadImage("17.jpg");
 }

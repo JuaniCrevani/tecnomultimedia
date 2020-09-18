@@ -1,8 +1,5 @@
 void Pantalla2() {
-  fill(255);
-  textAlign(CENTER);
-  textFont(FuenteB);
-  textSize(30);
+  alineacion_color_fuente1();
   text("¿Deseas iniciar la historia?",width/2,height/2);
   noFill();
   stroke(255);
@@ -14,5 +11,5 @@ void Pantalla2() {
   textAlign(CENTER);
   textFont(FuenteA);
   textSize(30);
-  text("Para avanzar deberas hacer click.",width/2,height/2+200);
+  text("Para avanzar deberás hacer click.",width/2,height/2+200);
 }

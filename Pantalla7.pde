@@ -1,8 +1,5 @@
 void Pantalla7() {
-  fill(255);
-  textAlign(CENTER);
-  textFont(FuenteB);
-  textSize(30);
+  alineacion_color_fuente1();
   text("Deberia comer algo para rendir plenamente en el encargo de mi trabajo.",width/2,height/2-50);
   textFont(FuenteB);
   text("¿Que vas a comer?",width/2,height/2+50);

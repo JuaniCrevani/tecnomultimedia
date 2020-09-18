@@ -1,8 +1,5 @@
 void Galletitas(){
-  fill(255);
-  textAlign(CENTER);
-  textFont(FuenteB);
-  textSize(30);
+  falineacion_color_fuente1();
   text("Al parecer las galletitas estan vencidas...",width/2,height/2-50);
   text("¿Deseas guardarlas o tirarlas?",width/2,height/2+50);
   rect(width-300,height-100,300,100);

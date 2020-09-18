@@ -1,8 +1,5 @@
 void VasAlAlmacen(){
-  fill(255);
-  textAlign(CENTER);
-  textFont(FuenteB);
-  textSize(30);
+  alineacion_color_fuente1();
   text("Te encaminas hacia el almacen.\n Compras algunas cosas esenciales y ves galletitas.",width/2,height/2-50);
   text("¿Deberias llevar un paquete?",width/2,height/2+50);
   rect(width-300,height-100,300,100);

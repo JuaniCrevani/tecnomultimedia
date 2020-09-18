@@ -1,8 +1,5 @@
 void Pantalla16() {  
-  fill(255);
-  textAlign(CENTER);
-  textFont(FuenteB);
-  textSize(30);
+  alineacion_color_fuente1();
   text("Luego de hacer las compras la varieda no cambio mucho\n Pero ¡el budin fresco siempre es mas rico!",width/2,height/2-50);
   textFont(FuenteB);
   text("¿Deseas comer veneno para ratas, galletitas o budin?",width/2,height/2+100);

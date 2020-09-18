@@ -1,8 +1,5 @@
 void Pantalla0() {
-  fill(255);
-  textAlign(RIGHT);
-  textFont(FuenteB);
-  textSize(30);
+  alineacion_color_fuente1();
   text("Una historia desarrollada por:",width/2,height/2);
   textAlign(LEFT);
   textFont(FuenteA);
